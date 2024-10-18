@@ -3,9 +3,9 @@ import { ref } from 'vue';
 const titulo = "Desarrollador Full Stack";
 const fecha = "Enero 2023 - Actualmente";
 const experiencia = ref([
-    { id: 1, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'Open Boot Camp: ', fecha: 'Enero 2023 - Julio 2023', parrafo: 'Desarrollo de diferentes aplicaciones Web, usando diferentes tecnologias' },
-    { id: 2, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'DevSchool: ', fecha: 'Julio 2023 - Marzo 2024', parrafo: 'Desarrollo de aplicaciones Web Full Stack, usando el Stack MERN' },
-    { id: 3, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'UTN: ', fecha: 'Marzo 2024 - Actualmente', parrafo: 'Trabajo en equipo desarrollando diferentes tareas de programacion con difenrentes roles' },
+    { id: 1, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'Open Boot Camp:', parrafo: 'Desarrollo de diferentes aplicaciones Web, usando diferentes tecnologias', fecha: 'Enero 2023 - Julio 2023' },
+    { id: 2, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'DevSchool:', parrafo: 'Desarrollo de aplicaciones Web Full Stack, usando el Stack MERN', fecha: 'Julio 2023 - Marzo 2024' },
+    { id: 3, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'UTN:', parrafo: 'Trabajo en equipo desarrollando diferentes tareas de programacion con diferentes roles', fecha: 'Marzo 2024 - Actual' },
 ])
 </script>
 
@@ -58,6 +58,7 @@ const experiencia = ref([
     flex-direction: column;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .item {
@@ -67,11 +68,20 @@ const experiencia = ref([
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 1rem;
+    transition: all 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+
 }
 
 .cont {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .imagen-svg {
@@ -93,5 +103,6 @@ p {
 time {
     color: azure;
     font-size: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 </style>
