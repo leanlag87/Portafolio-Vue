@@ -1,4 +1,9 @@
 <script setup>
+import linkedin from '/src/components/icons/linkedin_icon.svg'
+import instagram from '/src/components/icons/instagram_icon.svg'
+import github from '/src/components/icons/github_icon.svg'
+import cv from '/src/components/icons/cv_resume_icon.svg'
+
 const title = 'Leandro Gonzalez'
 const description = 'Tecnico Universitario en Programacion - UTN'
 const residencia = 'San Miguel de Tucuman - Tucuman - Argentina'
@@ -8,22 +13,22 @@ const redesSociales = [
   {
     id: 1,
     name: 'linkedin',
-    src: '/src/components/icons/linkedin_icon.svg',
+    src: linkedin,
     url: 'https://www.linkedin.com/in/leandro-gonzalez-657078259/'
   },
   {
     id: 2,
     name: 'instagram',
-    src: '/src/components/icons/instagram_icon.svg',
+    src: instagram,
     url: 'https://www.instagram.com/'
   },
   {
     id: 3,
     name: 'github',
-    src: '/src/components/icons/github_icon.svg',
+    src: github,
     url: 'https://github.com/leanlag87'
   },
-  { id: 4, name: 'curriculum', src: '/src/components/icons/cv_resume_icon.svg', url: '' }
+  { id: 4, name: 'curriculum', src: cv, url: '' }
 ]
 const telefono = '+54 9 381-5509162'
 </script>

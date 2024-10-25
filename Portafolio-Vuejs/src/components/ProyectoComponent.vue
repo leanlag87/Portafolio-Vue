@@ -1,4 +1,11 @@
 <script setup>
+import starbuck from '/src/assets/673_1x_shots_so.png'
+import form from '/src/assets/836shots_so.png'
+import to_do from '/src/assets/373shots_so.png'
+import carrito from '/src/assets/233shots_so.png'
+import rickAndMorty from '/src/assets/517shots_so.png'
+import rock from '/src/assets/687_1x_shots_so.png'
+
 import { ref } from 'vue' // Importamos ref de vue para crear una referencia reactiva
 
 const proyectos = ref([
@@ -6,7 +13,7 @@ const proyectos = ref([
         id: 1,
         nombre: 'Pagina de Starbuck',
         descripcion: 'Creé un clon de la página de inicio de Starbucks con React y CSS.',
-        imagen: '/src/assets/673_1x_shots_so.png',
+        imagen: starbuck,
         urlProyecto: 'https://proyecto1.com',
         urlGithub: 'https://github.com/leanlag87/Starbucks-React/tree/master/tarea-01',
     },
@@ -14,7 +21,7 @@ const proyectos = ref([
         id: 2,
         nombre: 'Formulario de inicio Login',
         descripcion: 'Creé un formulario de login y register con HTML, CSS y JavaScript.',
-        imagen: '/src/assets/836shots_so.png',
+        imagen: form,
         urlProyecto: 'https://form-interactivo.netlify.app/',
         urlGithub: 'https://github.com/leanlag87/login-and-register-final',
     },
@@ -22,7 +29,7 @@ const proyectos = ref([
         id: 3,
         nombre: 'To Do List App',
         descripcion: 'Creé una aplicación de lista de tareas con React y Bootstrap.',
-        imagen: '/src/assets/373shots_so.png',
+        imagen: to_do,
         urlProyecto: 'https://proyecto1.com',
         urlGithub: 'https://github.com/leanlag87/Listas-react',
     },
@@ -30,7 +37,7 @@ const proyectos = ref([
         id: 4,
         nombre: 'Carrito de Compras',
         descripcion: 'Creé un carrito de compras para simular la compras de frutas.',
-        imagen: '/src/assets/233shots_so.png',
+        imagen: carrito,
         urlProyecto: 'https://proyecto1.com',
         urlGithub: '',
     },
@@ -38,7 +45,7 @@ const proyectos = ref([
         id: 5,
         nombre: 'App de Rick and Morty',
         descripcion: 'Creé una App de Rick and Morty consumiendo una API para mostrar los personajes, con React y Bootstrap .',
-        imagen: '/src/assets/517shots_so.png',
+        imagen: rickAndMorty,
         urlProyecto: 'https://proyecto1.com',
         urlGithub: 'https://github.com/leanlag87/rick-and-morty-react',
     },
@@ -46,7 +53,7 @@ const proyectos = ref([
         id: 6,
         nombre: 'Pagina de Rockstar',
         descripcion: 'Creé una pagina clon de la pagina de Rockstar de videos juegos, con tecnologias como React y CSS, etc.',
-        imagen: '/src/assets/687_1x_shots_so.png',
+        imagen: rock,
         urlProyecto: 'https://proyecto1.com',
         urlGithub: 'https://github.com/leanlag87/rockstar-react',
     },

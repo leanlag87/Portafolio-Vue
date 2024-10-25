@@ -1,11 +1,15 @@
 <script setup>
+import icon1 from "/src/components/icons/dev-svgrepo-com.svg"
+import icon2 from "/src/components/icons/dev-svgrepo-com.svg"
+import icon3 from "/src/components/icons/dev-svgrepo-com.svg"
+
 import { ref } from 'vue';
 const titulo = "Desarrollador Full Stack";
 const fecha = "Enero 2023 - Actualmente";
 const experiencia = ref([
-    { id: 1, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'Open Boot Camp:', parrafo: 'Desarrollo de diferentes aplicaciones Web, usando diferentes tecnologias', fecha: 'Enero 2023 - Julio 2023' },
-    { id: 2, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'DevSchool:', parrafo: 'Desarrollo de aplicaciones Web Full Stack, usando el Stack MERN', fecha: 'Julio 2023 - Marzo 2024' },
-    { id: 3, src: "/src/components/icons/dev-svgrepo-com.svg", empresa: 'UTN:', parrafo: 'Trabajo en equipo desarrollando diferentes tareas de programacion con diferentes roles', fecha: 'Marzo 2024 - Actual' },
+    { id: 1, src: icon1, empresa: 'Open Boot Camp:', parrafo: 'Desarrollo de diferentes aplicaciones Web, usando diferentes tecnologias', fecha: 'Enero 2023 - Julio 2023' },
+    { id: 2, src: icon2, empresa: 'DevSchool:', parrafo: 'Desarrollo de aplicaciones Web Full Stack, usando el Stack MERN', fecha: 'Julio 2023 - Marzo 2024' },
+    { id: 3, src: icon3, empresa: 'UTN:', parrafo: 'Trabajo en equipo desarrollando diferentes tareas de programacion con diferentes roles', fecha: 'Marzo 2024 - Actual' },
 ])
 </script>
 
